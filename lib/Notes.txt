@@ -1,0 +1,3 @@
+- Use Twitter Bootstrap for this project
+- You can replace the texts and images with anyone you want as long as the images are the same dimensions
+- For Social Media icons, use "Font Awesome", Google how to use it

@@ -1,0 +1,176 @@
+/* PUT YOUR CSS UNDER THIS LINE */
+
+*{
+	box-sizing: border-box;
+}
+body{
+	text-align: left;
+	padding: 0;
+	font-family: arial;
+	background: white;
+	margin: 0;
+}
+
+
+
+.container {
+	width:100%;
+}
+
+
+.item 
+{width:19.5%;
+display:inline-block; 
+margin-right:-3px;}
+
+
+
+nav{
+	display: flex;
+}
+
+
+.nav-item{
+	padding-left: 10px;
+	margin: 0 0 0 30px;
+	text-decoration: none; 
+	font-weight: bold;
+	font-family: arial;
+	font-size: 13px;
+	color: black;
+
+}
+
+h2{
+	padding-top: 60px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+p{
+color: grey;
+font-size: 16px;
+font-size: 16px;
+}
+
+
+h3{
+	padding-top: 80px;
+	font-size: 17px;
+	padding-bottom: 20px;
+}
+
+
+.row {
+	display: -ms-flexbox; /* IE10 */
+	display: flex;
+	-ms-flex-wrap: wrap; /* IE10 */
+	flex-wrap: wrap;
+	padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+	-ms-flex: 25%; /* IE10 */
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+  }
+  
+  .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+  }
+
+
+h1{
+	color: green;
+	font-size: 12px;
+    padding-top: 30px; 
+}
+
+h5{
+padding-top: 10px;
+font-size: 19px;
+}
+
+.design{
+	padding-top: 7px;
+}
+
+footer{
+	font-size: 12px;
+	font-family: arial;
+	padding-top: 60px;
+}
+
+.social{
+	padding: 2px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+h3{
+	padding-bottom: 8px;
+	color: green;
+	font-weight: bold;
+}
+
+h4{
+	color: black;
+	padding-top: 2px;
+	padding-bottom: 8px;
+}
+
+.about{
+position: relative;
+
+}
+
+.aboutt .container {
+  background-image: url('../images/bg14.jpg');
+  background-size:auto 470px;
+  background-position: right;
+  background-repeat: no-repeat;
+
+}
+
+.card{
+	border: none;
+}
+
+h6{
+	padding-top: 60px;
+	padding-bottom: 20px;
+	color: black;
+	font-size: 20px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+	.column {
+	  -ms-flex: 50%;
+	  flex: 50%;
+	  max-width: 50%;
+	}
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.column {
+	  -ms-flex: 100%;
+	  flex: 100%;
+	  max-width: 100%;
+	}
+}
+
+@media (max-width:768px){
+	header {
+		float:none;
+		text-align:center;
+		width:100%;
+	}
+}
